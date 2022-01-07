@@ -1,0 +1,4 @@
+/G4-e/pos1/build/CMakeFiles/rebuild_cache.dir
+/G4-e/pos1/build/CMakeFiles/edit_cache.dir
+/G4-e/pos1/build/CMakeFiles/NaInew.dir
+/G4-e/pos1/build/CMakeFiles/naidetector.dir
