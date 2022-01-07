@@ -1,37 +1,20 @@
 #!/bin/bash
 for i in {1..2036}
 do
-<<<<<<< HEAD
     ./naidetector /G4-e/pos1/build/macros_10/pos$i.mac
     hadd output_f.root  *.root
     root -q hsimpleReader.C
     mv NaIDetector.dat NaIDetector_pos$i.dat
     mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_10/
-=======
-    ./naidetector /G4-e/pos1/build/macros_1/pos$i.mac
-    hadd output_f.root  *.root
-    root -q hsimpleReader.C
-    mv NaIDetector.dat NaIDetector_pos$i.dat
-    mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_1/ 
->>>>>>> f180cae707a1d7c4f3d517e40238ce5f8c0aa180
-    rm *.root
 done
 
 for i in {1..2036}
 do
-<<<<<<< HEAD
     ./naidetector /G4-e/pos1/build/macros_11/pos$i.mac
     hadd output_f.root  *.root
     root -q hsimpleReader.C
     mv NaIDetector.dat NaIDetector_pos$i.dat
     mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_11/
-=======
-    ./naidetector /G4-e/pos1/build/macros_2/pos$i.mac
-    hadd output_f.root  *.root
-    root -q hsimpleReader.C
-    mv NaIDetector.dat NaIDetector_pos$i.dat
-    mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_2/
->>>>>>> f180cae707a1d7c4f3d517e40238ce5f8c0aa180
     rm *.root
 done
 
@@ -47,37 +30,21 @@ done
 
 for i in {1..2036}
 do
-<<<<<<< HEAD
     ./naidetector /G4-e/pos1/build/macros_13/pos$i.mac
     hadd output_f.root  *.root
     root -q hsimpleReader.C
     mv NaIDetector.dat NaIDetector_pos$i.dat
     mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_13/
-=======
-    ./naidetector /G4-e/pos1/build/macros_3/pos$i.mac
-    hadd output_f.root  *.root
-    root -q hsimpleReader.C
-    mv NaIDetector.dat NaIDetector_pos$i.dat
-    mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_3/
->>>>>>> f180cae707a1d7c4f3d517e40238ce5f8c0aa180
     rm *.root
 done
 
 for i in {1..2036}
 do
-<<<<<<< HEAD
     ./naidetector /G4-e/pos1/build/macros_14/pos$i.mac
     hadd output_f.root  *.root
     root -q hsimpleReader.C
     mv NaIDetector.dat NaIDetector_pos$i.dat
     mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_14/
-=======
-    ./naidetector /G4-e/pos1/build/macros_4/pos$i.mac
-    hadd output_f.root  *.root
-    root -q hsimpleReader.C
-    mv NaIDetector.dat NaIDetector_pos$i.dat
-    mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_4/
->>>>>>> f180cae707a1d7c4f3d517e40238ce5f8c0aa180
     rm *.root
 done
 
@@ -93,37 +60,21 @@ done
 
 for i in {1..2036}
 do
-<<<<<<< HEAD
     ./naidetector /G4-e/pos1/build/macros_16/pos$i.mac
     hadd output_f.root  *.root
     root -q hsimpleReader.C
     mv NaIDetector.dat NaIDetector_pos$i.dat
     mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_16/
-=======
-    ./naidetector /G4-e/pos1/build/macros_5/pos$i.mac
-    hadd output_f.root  *.root
-    root -q hsimpleReader.C
-    mv NaIDetector.dat NaIDetector_pos$i.dat
-    mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_5/
->>>>>>> f180cae707a1d7c4f3d517e40238ce5f8c0aa180
     rm *.root
 done
 
 for i in {1..2036}
 do
-<<<<<<< HEAD
     ./naidetector /G4-e/pos1/build/macros_17/pos$i.mac
     hadd output_f.root  *.root
     root -q hsimpleReader.C
     mv NaIDetector.dat NaIDetector_pos$i.dat
     mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_17/
-=======
-    ./naidetector /G4-e/pos1/build/macros_6/pos$i.mac
-    hadd output_f.root  *.root
-    root -q hsimpleReader.C
-    mv NaIDetector.dat NaIDetector_pos$i.dat
-    mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_6/
->>>>>>> f180cae707a1d7c4f3d517e40238ce5f8c0aa180
     rm *.root
 done
 
@@ -139,55 +90,31 @@ done
 
 for i in {1..2036}
 do
-<<<<<<< HEAD
     ./naidetector /G4-e/pos1/build/macros_19/pos$i.mac
     hadd output_f.root  *.root
     root -q hsimpleReader.C
     mv NaIDetector.dat NaIDetector_pos$i.dat
     mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_19/
-=======
-    ./naidetector /G4-e/pos1/build/macros_7/pos$i.mac
-    hadd output_f.root  *.root
-    root -q hsimpleReader.C
-    mv NaIDetector.dat NaIDetector_pos$i.dat
-    mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_7/
->>>>>>> f180cae707a1d7c4f3d517e40238ce5f8c0aa180
     rm *.root
 done
 
 for i in {1..2036}
 do
-<<<<<<< HEAD
     ./naidetector /G4-e/pos1/build/macros_20/pos$i.mac
     hadd output_f.root  *.root
     root -q hsimpleReader.C
     mv NaIDetector.dat NaIDetector_pos$i.dat
     mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_20/
-=======
-    ./naidetector /G4-e/pos1/build/macros_8/pos$i.mac
-    hadd output_f.root  *.root
-    root -q hsimpleReader.C
-    mv NaIDetector.dat NaIDetector_pos$i.dat
-    mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_8/
->>>>>>> f180cae707a1d7c4f3d517e40238ce5f8c0aa180
     rm *.root
 done
 
 for i in {1..2036}
 do
-<<<<<<< HEAD
     ./naidetector /G4-e/pos1/build/macros_21/pos$i.mac
     hadd output_f.root  *.root
     root -q hsimpleReader.C
     mv NaIDetector.dat NaIDetector_pos$i.dat
     mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_21/
-=======
-    ./naidetector /G4-e/pos1/build/macros_9/pos$i.mac
-    hadd output_f.root  *.root
-    root -q hsimpleReader.C
-    mv NaIDetector.dat NaIDetector_pos$i.dat
-    mv NaIDetector_pos$i.dat /G4-e/pos1/build/results_9/
->>>>>>> f180cae707a1d7c4f3d517e40238ce5f8c0aa180
     rm *.root
 done
 
